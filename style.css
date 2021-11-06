@@ -1,0 +1,26 @@
+#country-detail img{
+    width: 150px;
+}
+#countries {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+.country {
+	background-color: azure;
+	border: 1px solid goldenrod;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	width: 300px;
+	text-align: center;
+}
+.country-name {
+	color: tomato;
+	font-size: 28px;
+}
+.capital-name {
+	color: green;
+	font-size: 20px;
+}
+
